@@ -1,7 +1,7 @@
 #!/bin/bash
 MYIP=$(wget -qO- icanhazip.com);
 apt install jq curl -y
-read -p "Masukan Domain (contoh :  sayang80)" domen
+read -p "Masukan subdomain (contoh :  ngaceng)" domen
 DOMAIN=vps-ku.my.id
 sub=${domen}
 #(</dev/urandom tr -dc a-z0-9 | head -c5)
